@@ -27,23 +27,6 @@ public class Main {
         return sum == num;
     }
 
-
-   /* public static String numberToWords(int num) {
-        if (num < 0) return "Invalid Value";
-
-        String result = "";
-
-        String[] words = new String[]{"Zero", "One", "Two", "Three", "Four",
-                "Five", "Six", "Seven", "Eight", "Nine"};
-
-        while (num != 0) {
-            result = words[num % 10] + " " + result;
-//            result = words[num % 10] + " " + result;
-            num = num / 10;
-        }
-
-        return result.trim();
-    }*/
     public static String numberToWords(int num) {
         if (num < 0) return "Invalid Value";
 
